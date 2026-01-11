@@ -1,5 +1,7 @@
 # Claude Code Instructions for Orkesterkollektivet
 
+*Last updated: 2026-01-11*
+
 ## Project Overview
 Static website for Orkesterkollektivet, a project-based orchestra in Norway.
 
