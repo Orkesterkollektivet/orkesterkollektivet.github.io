@@ -14,28 +14,8 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: main
-          path: main
-
-      - name: Checkout staging branch
-        uses: actions/checkout@v4
-        with:
-          ref: staging
-          path: staging-content
-        continue-on-error: true
-
-      - name: Prepare deployment
-        run: |
-          mkdir -p deploy
-          cp -r main/* deploy/
-          if [ -d "staging-content" ]; then
-            mkdir -p deploy/staging
-            cp -r staging-content/* deploy/staging/
-            rm -f deploy/staging/CNAME  # Don't override CNAME
-          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -43,7 +23,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: deploy
+          path: .
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
