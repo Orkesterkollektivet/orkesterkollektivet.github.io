@@ -1217,7 +1217,7 @@
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background: #000000;
 			}
 
 		#header > :first-child {
@@ -1281,13 +1281,13 @@
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 1px #000000;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px #000000;
 			}
 
 				#header nav ul li:first-child {
@@ -1322,7 +1322,7 @@
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			background: #000000;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1419,7 +1419,7 @@
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1px #000000;
 					}
 
 						#header nav ul li:first-child {
