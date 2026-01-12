@@ -164,7 +164,7 @@
 	}
 
 	h1, h2, p, .icon {
-		text-shadow: 2px 2px 1px rgba(127,32,0,0.3);
+		text-shadow: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1232,7 +1232,7 @@
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 1px #000000;
 			border-radius: 100%;
 		}
 
@@ -1242,7 +1242,7 @@
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: #000000;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
