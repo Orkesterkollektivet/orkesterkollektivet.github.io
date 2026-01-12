@@ -37,6 +37,22 @@ When using SSH to the server, set the SSH_AUTH_SOCK to the user's agent:
 export SSH_AUTH_SOCK=/tmp/ssh-XXXXX/agent.XXXXX  # Get from user if needed
 ```
 
+## Commit Message Convention
+
+All commits made by Claude must be clearly marked as AI-assisted:
+
+```
+🤖 [AI] Short description of changes
+
+Optional longer description.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+```
+
+**Required elements:**
+- Prefix: `🤖 [AI]` followed by a space
+- Co-Authored-By trailer at the end
+
 ## Workflow
 
 1. **For staging changes**: Work on `staging` branch, deploy to staging server
