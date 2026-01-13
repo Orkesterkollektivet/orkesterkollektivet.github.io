@@ -22,6 +22,12 @@ Static website for Orkesterkollektivet, a project-based orchestra in Norway.
 
 ## Important Rules
 
+### Default Branch
+Always ensure you're on the `staging` branch before making changes:
+```bash
+git checkout staging
+```
+
 ### NEVER do these without explicit user request:
 - Commit to `main` branch
 - Merge any branch into `main`
