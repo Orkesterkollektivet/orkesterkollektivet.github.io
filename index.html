@@ -1,394 +1,417 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Orkesterkollektivet er et prosjektbasert symfoniorkester for ambisiøse amatører og semiproffe musikere. Vi spiller klassisk musikk på høyt nivå til inntekt for veldedige formål.">
+  <meta name="keywords" content="orkester, klassisk musikk, symfoniorkester, amatørorkester, Oslo, Norge, veldedighet">
 
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Orkesterkollektivet</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Orkesterkollektivet">
+  <meta property="og:description" content="Prosjektbasert symfoniorkester for ambisiøse musikere. Klassisk musikk på høyt nivå til inntekt for veldedige formål.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://orkesterkollektivet.no">
+  <meta property="og:image" content="https://orkesterkollektivet.no/images/og-image.jpg">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <title>Orkesterkollektivet | Prosjektbasert symfoniorkester</title>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon" style="font-size: 3em;">🎻</span>
-						</div>
-						<div class="content">
-							<div class="inner" style="color: #000;">
-								<h2 style="color: #000;">Orkesterkollektivet</h2>
-								<h1 style="font-size: 3.0em; line-height: 0.7em; color: #000;">Mahler 4</h1>
+  <link rel="icon" href="/images/logo/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <img src="/images/logo/logo.png" alt="Orkesterkollektivet logo">
+        <span class="header__logo-text">Orkesterkollektivet</span>
+      </a>
 
-								<p style="margin: 0px; line-height: 1.2em;">&nbsp;</p>
-								<p style="margin: 0px; line-height: 1.2em; font-weight: 600;">Trond Husebø, dirigent</p>
-								<p style="margin: 0px; line-height: 1.2em; font-weight: 600;">Sofia Nesje Enger, sopran</p>
-								<p style="margin: 0px; line-height: 1.2em; font-weight: 600;">12. april 2026, Nordstrand kirke</p>
+      <nav class="nav" id="nav">
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__list">
+          <li><a href="#om-oss" class="nav__link">Om&nbsp;oss</a></li>
+          <li><a href="#prosjekt" class="nav__link">Aktuelt&nbsp;prosjekt</a></li>
+          <li><a href="#bli-med" class="nav__link">Bli&nbsp;med</a></li>
+          <li><span class="nav__link nav__link--disabled">Historikk</span></li>
+          <li><span class="nav__link nav__link--disabled">Galleri</span></li>
+          <li class="nav__list-cta"><a href="#bli-med" class="btn btn--primary">Søk&nbsp;nå</a></li>
+        </ul>
+        <a href="#bli-med" class="btn btn--primary">Søk&nbsp;nå</a>
+      </nav>
+    </div>
+  </header>
 
-								<p style="margin: 0px; line-height: 1.2em;">&nbsp;</p>
-								<p style="margin: 0px; line-height: 1.2em; font-weight: 600;">Til inntekt for</p>
-								<p style="margin: 0px; line-height: 1.2em; font-size: 1.1em; font-weight: 700;">Leger uten grenser</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#om_oss" style="font-weight: 600; color: #000;">Om oss</a></li>
-								<li><a href="#bli_med" style="font-weight: 600; color: #000;">Bli med</a></li>
-								<li><a href="#billetter" style="font-weight: 600; color: #000;">Billetter</a></li>
-								<!--<<li><a href="#kontakt" style="font-weight: 600; text-shadow: 2px 2px 3px rgba(0,0,0,0.8);">Kontakt</a></li>-->
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero__background">
+      <img id="heroImage" src="/images/hero/hero-1.jpg" alt="Orkesterkollektivet i konsert">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__subtitle">Neste konsert</p>
+      <h1 class="hero__title">Mahler 4</h1>
+      <p class="hero__project">Symfoni nr. 4 i G-dur</p>
+      <p class="hero__details">
+        12. april 2026 | Nordstrand kirke<br>
+        Dirigent: Trond Husebø | Sopran: Sofia Nesje Enger
+      </p>
+      <div class="hero__cta">
+        <a href="#bli-med" class="btn btn--primary btn--large">Søk&nbsp;om&nbsp;å&nbsp;spille</a>
+        <a href="#billetter" class="btn btn--outline btn--large">Kjøp&nbsp;billetter</a>
+      </div>
+    </div>
+  </section>
 
-				<!-- Main -->
-					<div id="main">
+  <!-- About Section -->
+  <section class="about" id="om-oss">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Om Orkesterkollektivet</h2>
+        <p class="section-header__subtitle">
+          Et unikt orkester for ambisiøse musikere som ønsker å spille på høyt nivå
+        </p>
+      </div>
 
-						<!-- Om oss -->
-							<article id="om_oss">
-								<h2 class="major">Om oss</h2>
-								<span class="image main"><img src="images/husebo.jpg" alt="" /></span>
-								<p>Orkesterkollektivet henvender seg først og fremst til musikere med høyere musikkutdanning som ikke jobber utøvende i sitt daglige virke. Men det er også åpent for utøvende musikere, musikkstudenter og amatørmusikere på høyt nivå. Hvert år avholdes ett eller flere prosjekter hvor billettinntektene går til et veldedig formål.</p>
-								<p>Vi er prosjektbaserte og har derfor ikke faste medlemmer. For hver samling komponeres en ny besetning basert på de verk som skal spilles. Det er som regel plass til de fleste strykere. For blåsere, slagverk, harpe osv. forsøker man å rullere på plassene mellom prosjektene ved behov. <a href="http://www.trondhusebo.com/">Trond Husebø</a> er for tiden engasjert som kunstnerisk leder.</p>
-								<p>Musikerne gir av sin tid og sin kompetanse, og spiller i orkesteret uten vederlag. Alt overskudd fra billettinntekter går uavkortet til et veldedig formål. Hvilket formål som støttes avgjøres fra gang til gang. Vi har tidligere støttet bl.a. UNICEF, Leger Uten Grenser, Kreftforeningen, Røde Kors og Redd Barna. Vi er glade for at stadig flere yrkesmusikere velger å bidra.</p>
-								<p>Vi elsker symfonisk musikk! Vi brenner etter å gi både publikum og hverandre en uforglemmelig, musikalsk opplevelse. Mange av oss har ikke tid eller anledning til å spille fast i et orkester, og derfor er det ekstra givende for oss å bidra for Orkesterkollektivet.</p>
-								<h3>Prøvetider (foreløpige)</h3>
-								<ul>
-									<li>Torsdag 9. april kl. 18-21</li>
-									<li>Fredag 10. april kl. 18-21</li>
-									<li>Lørdag 11. april kl. 11-17</li>
-									<li>Søndag 12. april kl. 15-17, konsert kl. 18</li>
-								</ul>
-								<p>Det tas forbehold om endringer.</p>
-								<h3>Vår historie</h3>
-								<p>Orkesterkollektivet ble startet opp av søskenparet Bjørn Erik og Katrine Neerland i 2011. De savnet et tilbud om et prosjektbasert orkester i Oslo og opprettet en Facebook-gruppe for å lodde interessen. Responsen var overveldende, og et halvt år senere kunne søskenparet invitere til orkesterets første prosjekt. Den første konserten ble holdt 26. februar 2012 i Nordstrand kirke med Beethovens 2. symfoni på programmet. Maria Molund var dirigent.</p>
-								<p>Etter hvert kom flere med i planleggingsarbeidet og orkesteret ble etablert som en forening med en effektiv og entusiastisk ledergruppe. Nye prosjekter ble gjennomført i påfølgende år med symfonisk musikk som hovedverk: Brahms 4. symfoni med Maria Molund i september 2012, samt Beethovens 3. symfoni med Hans Petter Mæhle i november 2013. Etter dette har Trond Husebø ledet oss gjennom Mahlers 4. symfoni i april 2015, Tsjajkovskijs 5. symfoni i april 2016, Sjostakovitsj' 5. symfoni i april 2017 og Sibelius' 1. symfoni i april 2018.</p>
-								<p>Høsten 2018 oppførte vi dessuten Brahms' Requiem i det som ble vårt første korprosjekt:</p>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/oOs0G25dk4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</article>
+      <div class="about__grid">
+        <div class="about__content">
+          <p class="lead">
+            Orkesterkollektivet er et prosjektbasert symfoniorkester for musikere som ønsker å spille
+            klassisk musikk på profesjonelt nivå, uten å forplikte seg til ukentlige øvelser.
+          </p>
+          <p>
+            Vi startet i 2011 som en gruppe venner med en felles drøm: å skape et orkester for
+            ambisiøse musikere som ønsker å spille symfonisk musikk på høyt nivå, men som savner
+            et tilbud som passer dem.
+          </p>
+          <p>
+            I dag tiltrekker vi musikere fra hele Norge og utlandet. Vi gjennomfører 1-2 prosjekter
+            i året, hvor alt av billettinntekter går til veldedige formål.
+          </p>
+          <p>
+            Deltakelse er ulønnet, men også gratis bortsett fra en liten egenandel til mat og drikke.
+          </p>
+        </div>
 
-						<!-- Bli med -->
-							<article id="bli_med">
-								<h2 class="major">Lyst å bli med?</h2>
-								<!--<p>Søknadsskjemaet åpner snart. Følg med på denne siden og på vår facebook-side!</p>-->
-								<p>Klikker du på knappen under, vil søknadsskjemaet åpne seg i en ny nettleserfane.</p>
-								<p><span class="button icon fa-file disabled">Søknadsskjema</span></p>
-								<p>Søknadsfrist er <u>22. februar 2026</u>. Alle som sender inn søknadsskjema vil få beskjed direkte via oppgitt e-postadresse.</p>
-								<h3>Hvem kan søke?</h3>
-								<p>Orkesterkollektivet er 100% pro bono, non-profit og dugnadsbasert. Billettinntektene går denne gang til Leger uten grenser. Publikum bestemmer selv hvor mye de ønsker å gi.</p>
-								<p>Vi er beæret over at så mange dyktige musikere ønsker å bidra, men dessverre kan ikke alle være med. Det er vanligvis plass til de fleste strykere, men for blåsere og øvrige er det selvsagt større begrensninger. Prosessen er derfor mer en søknad enn en ren påmelding.</p>
-								<p>Uttaket er i stor grad basert på skjønn, og vi forsøker å oppnå et høyest mulig kunstnerisk nivå på orkesteret samtidig som vi vektlegger rullering.</p>
-							</article>
+        <div class="about__highlight">
+          <h4>Vårt fotavtrykk</h4>
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-number">17</span>
+              <span class="about__stat-label">konserter</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">14</span>
+              <span class="about__stat-label">år</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">&gt;&nbsp;600&nbsp;000&nbsp;kr</span>
+              <span class="about__stat-label">til veldedighet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-						<!-- Billetter -->
-							<article id="billetter">
-								<h2 class="major">Neste konsert</h2>
-								<p>Dato: <b>12. april</b> 2026 kl. 18 i <a href="https://www.google.no/maps/place/Nordstrand/@59.8843114,10.696048,12.25z/data=!4m7!1m4!3m3!1s0x464168cc866c1513:0x37106087da050579!2sNordstrand+kirke!3b1!3m1!1s0x0000000000000000:0x89133b9b65aef71f">Nordstrand kirke, Oslo</a>.</p>
-								<p>Program:
-								<br /><b>Mahler: Symfoni nr. 4</b>
-								<br />
-								<br />Dirigent: <a href="https://crescendiartists.com/portfolio/trond-husebo/">Trond Husebø</a>
-								<br />Sopran: <a href="https://crescendiartists.com/portfolio/sofia-nesje-enger/">Sofia Nesje Enger</a>
-								<br />
-								<br />Billetter ved inngangsdøren. Betal med Vipps. Alle inntektene fra billettsalg går uavkortet til <a href="https://legerutengrenser.no/">Leger uten grenser</a>. Konserten er støttet av Oslo kommune.
-								</p>
-								<div style="width: 25%; height: 25%; float: right;">
-									<img src="images/Oslo-logo-hvit-RGB.svg">
-								</div>
-							</article>
+  <!-- Current Project Section -->
+  <section class="project" id="prosjekt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Aktuelt prosjekt</h2>
+        <p class="section-header__subtitle">
+          Vårt neste prosjekt tar oss tilbake til Mahler
+        </p>
+      </div>
 
-						<!-- Kontakt -->
-							<article id="kontakt">
-								<h2 class="major">Kontakt</h2>
-								<form action="contact.php" method="POST">
-									<div class="field">
-										<label for="email">Din e-postadresse</label>
-										<input type="text" name="from" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Melding</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send melding" class="special" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="https://www.facebook.com/orkesterkollektivet/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/orkesterkollektivet/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://twitter.com/@ookoll" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.youtube.com/channel/UC6x8bAAaGZ5qCazoTq15JkQ" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
-								</ul>
-							</article>
+      <div class="project__card">
+        <img src="/images/projects/mahler4-2026.jpg" alt="Mahler Symfoni nr. 4" class="project__image">
+        <div class="project__content">
+          <h3 class="project__work">Symfoni nr. 4 i G-dur</h3>
+          <p class="project__composer">Gustav Mahler (1860-1911)</p>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+          <div class="project__info">
+            <div class="project__info-item">
+              <span class="project__info-label">Dato</span>
+              <span class="project__info-value">Lørdag 12. april 2026, kl. 18:00</span>
+            </div>
+            <div class="project__info-item">
+              <span class="project__info-label">Sted</span>
+              <span class="project__info-value">Nordstrand kirke, Oslo</span>
+            </div>
+            <div class="project__info-item">
+              <span class="project__info-label">Dirigent</span>
+              <span class="project__info-value">
+                <a href="https://crescendiartists.com/portfolio/trond-husebo/" target="_blank" rel="noopener">Trond Husebø</a>
+              </span>
+            </div>
+            <div class="project__info-item">
+              <span class="project__info-label">Solist</span>
+              <span class="project__info-value">
+                <a href="https://crescendiartists.com/portfolio/sofia-nesje-enger/" target="_blank" rel="noopener">Sofia Nesje Enger</a>, sopran
+              </span>
+            </div>
+          </div>
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+          <div class="project__callouts">
+            <div class="project__tickets" id="billetter">
+              <h4>Billetter</h4>
+              <p>
+                Billetter selges i døren via Vipps. Du bestemmer selv hvor mye du vil gi.
+              </p>
+              <p style="margin-top: var(--space-lg);">
+                Konserten er støttet av Oslo kommune.
+              </p>
+            </div>
+            <div class="project__charity">
+              <h4>Leger uten grenser</h4>
+              <p>
+                Alle billettinntekter går uavkortet til Leger uten grenser, som gir livsviktig medisinsk hjelp til mennesker rammet av krig, konflikter og katastrofer.
+              </p>
+              <a href="https://legerutengrenser.no/" target="_blank" rel="noopener">Les mer om Leger uten grenser →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+  <!-- Join Section -->
+  <section class="join" id="bli-med">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Bli med i orkesteret</h2>
+        <p class="section-header__subtitle">
+          Vi søker alltid etter dyktige musikere til våre prosjekter
+        </p>
+      </div>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+      <div class="join__content">
+        <div class="join__info">
+          <div class="join__deadline">
+            <p class="join__deadline-label">Søknadsfrist</p>
+            <p class="join__deadline-date">22. februar 2026</p>
+          </div>
 
-								<section>
-									<h3 class="major">Lists</h3>
+          <h4>Hvem kan søke?</h4>
+          <p>
+            Vi ser etter musikere som spiller på et høyt nivå og som kan delta på alle øvelsene
+            i prosjektperioden. Du bør ha solid erfaring fra orkesterspill og beherske ditt instrument godt.
+          </p>
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+          <h4>Prøvetider</h4>
+          <ul style="list-style: disc; padding-left: var(--space-xl); margin-bottom: var(--space-lg);">
+            <li>Torsdag 9. april kl. 18-21</li>
+            <li>Fredag 10. april kl. 18-21</li>
+            <li>Lørdag 11. april kl. 11-17</li>
+            <li>Søndag 12. april kl. 15-17, konsert kl. 18</li>
+          </ul>
+          <p>
+            Det tas forbehold om endringer.
+          </p>
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+          <h4>Instrumentgrupper</h4>
+          <p>
+            <strong>Strykere:</strong> Vi ser etter erfarne strykere med god intonasjon,
+            fin klang og evne til samspill.
+          </p>
+          <p>
+            <strong>Blåsere:</strong> Nivået blant blåserne er gjennomgående svært høyt.
+            Konkurransen om plassene er hard, og vi forsøker å rullere mellom prosjektene.
+          </p>
+          <p>
+            <strong>Slagverk og pauker:</strong> Antall plasser varierer fra prosjekt til prosjekt.
+            Send gjerne en søknad hvis du er interessert.
+          </p>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-									</ul>
+          <a href="https://forms.gle/gqbvf72jwY2fLCXT9" target="_blank" rel="noopener" class="btn btn--primary btn--large">Søk&nbsp;nå</a>
+        </div>
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+        <div class="join__faq">
+          <h4 style="margin-bottom: var(--space-lg);">Ofte stilte spørsmål</h4>
+          <div class="faq">
+            <div class="faq__item">
+              <button class="faq__question">
+                Koster det noe å delta?
+                <span class="faq__icon">+</span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  Deltakelse er gratis, men det er en liten egenandel på rundt 200-300 kr som
+                  dekker mat og drikke under øvelsene.
+                </div>
+              </div>
+            </div>
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+            <div class="faq__item">
+              <button class="faq__question">
+                Må jeg kunne spille utenat?
+                <span class="faq__icon">+</span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  Nei, vi spiller med noter. Men du bør kunne notelese godt og ha øvd inn
+                  din stemme før første øvelse.
+                </div>
+              </div>
+            </div>
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+            <div class="faq__item">
+              <button class="faq__question">
+                Hvor holdes øvelsene?
+                <span class="faq__icon">+</span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  Øvelsene holdes vanligvis i Oslo-området. Nøyaktig lokasjon oppgis
+                  når du har fått plass i orkesteret.
+                </div>
+              </div>
+            </div>
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button special">Special</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button special icon fa-download">Icon</a></li>
-										<li><a href="#" class="button icon fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button special disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
+            <div class="faq__item">
+              <button class="faq__question">
+                Kan jeg delta på bare noen øvelser?
+                <span class="faq__icon">+</span>
+              </button>
+              <div class="faq__answer">
+                <div class="faq__answer-inner">
+                  Nei, for å sikre kvaliteten på konserten forventer vi at alle musikere
+                  deltar på alle planlagte øvelser.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="demo-name">Name</label>
-											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-										</div>
-										<div class="field half">
-											<label for="demo-email">Email</label>
-											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-										</div>
-										<div class="field">
-											<label for="demo-category">Category</label>
-											<div class="select-wrapper">
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-										</div>
-										<div class="field half first">
-											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-											<label for="demo-priority-low">Low</label>
-										</div>
-										<div class="field half">
-											<input type="radio" id="demo-priority-high" name="demo-priority">
-											<label for="demo-priority-high">High</label>
-										</div>
-										<div class="field half first">
-											<input type="checkbox" id="demo-copy" name="demo-copy">
-											<label for="demo-copy">Email me a copy</label>
-										</div>
-										<div class="field half">
-											<input type="checkbox" id="demo-human" name="demo-human" checked>
-											<label for="demo-human">Not a robot</label>
-										</div>
-										<div class="field">
-											<label for="demo-message">Message</label>
-											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
+  <!-- Social Media Section -->
+  <section class="social" id="sosiale-medier">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-header__title">Følg oss</h2>
+        <p class="section-header__subtitle">
+          Hold deg oppdatert på våre aktiviteter
+        </p>
+      </div>
 
-							</article>
+      <div class="social__content">
+        <div class="social__facebook">
+          <div id="fb-root"></div>
+          <div class="fb-page"
+               data-href="https://www.facebook.com/orkesterkollektivet"
+               data-tabs="timeline"
+               data-width="500"
+               data-height="500"
+               data-small-header="false"
+               data-adapt-container-width="true"
+               data-hide-cover="false"
+               data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/orkesterkollektivet" class="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/orkesterkollektivet">Orkesterkollektivet på Facebook</a>
+            </blockquote>
+          </div>
+        </div>
 
-					</div>
+        <div class="social__cards">
+          <a href="https://www.instagram.com/orkesterkollektivet/" target="_blank" rel="noopener" class="social__card social__card--instagram">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            <div class="social__card-text">
+              <span class="social__card-title">Instagram</span>
+              <span class="social__card-handle">@orkesterkollektivet</span>
+            </div>
+          </a>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright" style="color: #626262;">&copy; Orkesterkollektivet | Org.nr.: <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=816523222">816523222</a> | Design: <a href="https://html5up.net">HTML5 UP</a></p>
-					</footer>
+          <a href="https://www.youtube.com/@orkesterkollektivet" target="_blank" rel="noopener" class="social__card social__card--youtube">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            <div class="social__card-text">
+              <span class="social__card-title">YouTube</span>
+              <span class="social__card-handle">Se våre videoer</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			</div>
+  <!-- Footer -->
+  <footer class="footer" id="kontakt">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="/images/logo/logo-light.png" alt="Orkesterkollektivet">
+            <span class="footer__logo-text">Orkesterkollektivet</span>
+          </div>
+          <p class="footer__description">
+            Orkesterkollektivet er et prosjektbasert symfoniorkester for ambisiøse musikere.
+            Vi spiller klassisk musikk på høyt nivå, og alle billettinntekter går til veldedige formål.
+          </p>
+        </div>
 
-		<!-- BG -->
-			<div id="bg"></div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Navigasjon</h4>
+          <ul class="footer__links">
+            <li><a href="#om-oss" class="footer__link">Om oss</a></li>
+            <li><a href="#prosjekt" class="footer__link">Aktuelt prosjekt</a></li>
+            <li><a href="#bli-med" class="footer__link">Bli med</a></li>
+            <li><span class="footer__link footer__link--disabled">Historikk</span></li>
+            <li><span class="footer__link footer__link--disabled">Galleri</span></li>
+          </ul>
+        </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <div class="footer__col">
+          <h4 class="footer__heading">Kontakt</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:post@orkesterkollektivet.no" class="footer__link">post@orkesterkollektivet.no</a></li>
+            <li><span class="footer__link">Org.nr: 816 523 222</span></li>
+          </ul>
+        </div>
 
-	</body>
+        <div class="footer__col">
+          <h4 class="footer__heading">Følg oss</h4>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/orkesterkollektivet" target="_blank" rel="noopener" class="footer__social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/orkesterkollektivet/" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/@orkesterkollektivet" target="_blank" rel="noopener" class="footer__social-link" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Orkesterkollektivet. Alle rettigheter reservert.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Facebook SDK -->
+  <script async defer crossorigin="anonymous"
+          src="https://connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v18.0"
+          nonce="abc123"></script>
+
+  <!-- Main JavaScript -->
+  <script src="/assets/js/main.js"></script>
+</body>
 </html>
