@@ -1,0 +1,108 @@
+/* Orkesterkollektivet Brand Colors & Design Tokens */
+
+:root {
+  /* ===== PRIMARY COLORS ===== */
+  --color-solkvarts: #FFCB77;      /* Main brand color - warm yellow */
+  --color-flammekarmin: #FE6D73;   /* Accent - coral/salmon */
+  --color-isdraape: #FEF9EF;       /* Light background */
+  --color-eikebark: #1C1C1C;       /* Dark text/backgrounds */
+  --color-havfrue: #17C3B2;        /* Accent - teal */
+  --color-tenksomhet: #227C9D;     /* Accent - blue */
+
+  /* ===== SECONDARY COLORS ===== */
+  --color-kraakefjaer: #2D2D2D;
+  --color-soelvstripe: #E0E0E0;
+  --color-pastellkveld: #D7A4B8;
+  --color-skumring: #B0C4DE;
+  --color-solstraalebrun: #D1B465;
+  --color-vaarbris: #C5E0C9;
+  --color-granitt: #7A7A7A;
+  --color-askesloer: #B4B4B4;
+  --color-skifer: #4F4F4F;
+  --color-stoevpust: #C8C8C8;
+  --color-krittlinje: #F8F8F8;
+  --color-polarblink: #EFEFEF;
+
+  /* ===== SEMANTIC COLORS ===== */
+  --color-background: var(--color-isdraape);
+  --color-background-alt: var(--color-krittlinje);
+  --color-text: var(--color-eikebark);
+  --color-text-light: var(--color-skifer);
+  --color-text-muted: var(--color-askesloer);
+  --color-primary: var(--color-solkvarts);
+  --color-secondary: var(--color-flammekarmin);
+  --color-accent: var(--color-havfrue);
+  --color-accent-alt: var(--color-tenksomhet);
+
+  /* ===== TYPOGRAPHY ===== */
+  --font-primary: 'Lato', sans-serif;
+  --font-secondary: 'Merriweather', serif;
+
+  /* Font sizes - fluid typography */
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.6vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.2rem + 1.5vw, 2rem);
+  --text-3xl: clamp(1.875rem, 1.5rem + 2vw, 2.5rem);
+  --text-4xl: clamp(2.25rem, 1.8rem + 2.5vw, 3rem);
+  --text-5xl: clamp(3rem, 2.2rem + 4vw, 4rem);
+
+  /* Font weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-black: 900;
+
+  /* Line heights */
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  /* ===== SPACING ===== */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Section spacing */
+  --section-padding: clamp(3rem, 5vw, 6rem);
+
+  /* ===== LAYOUT ===== */
+  --container-max: 1200px;
+  --container-narrow: 800px;
+  --container-wide: 1400px;
+
+  /* ===== BORDERS & RADIUS ===== */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* ===== SHADOWS ===== */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+
+  /* ===== TRANSITIONS ===== */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* ===== Z-INDEX ===== */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+}
